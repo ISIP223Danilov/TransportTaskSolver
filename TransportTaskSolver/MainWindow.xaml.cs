@@ -472,7 +472,7 @@ namespace TransportTaskSolver
                 MessageBox.Show($"Ошибка чтения Excel: {ex.Message}", "Ошибка");
             }
         }
-
+        //
         private void BtnSaveExcel_Click(object sender, RoutedEventArgs e)
         {
             if (ResultGrid.ItemsSource == null)
